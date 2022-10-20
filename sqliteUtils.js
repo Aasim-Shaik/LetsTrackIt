@@ -204,6 +204,3 @@ async function getRowIdList(tb){
 
 module.exports = {getRowIdList , updateUrl, getCheapPrice , getHighPrice , updateHighPrice , getPrice , updatePrice ,updateCheapPrice ,  closeDB , makeConn , isEmpty , insert , getRowCount , getUrl , getRemaining , getEmail , updateRemaining , deleteRow , deleteIfZero , decrementRemaining  ,incrementRemaining};
 
-//insert into work values (1,"email","url" , null ,null , null,2); 
-//CREATE TABLE [IF NOT EXISTS] [schema_name].table_name ( uid int primary key , email varchar , url varchar , cheapestPrice int , currentPrice int , highestPrice int , remaining int check( remaining > 0) );
-//use above schema to create table  in db.
